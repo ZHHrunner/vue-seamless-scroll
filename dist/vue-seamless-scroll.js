@@ -147,7 +147,7 @@ exports.default = {
     },
     pos: function pos() {
       return {
-        transform: 'translate(' + this.xPos + 'px,' + this.yPos + 'px)',
+        transform: 'translate3d(' + this.xPos + 'px,' + this.yPos + 'px,0px)',
         transition: 'all ' + this.ease + ' ' + this.delay + 'ms',
         overflow: 'hidden'
       };
